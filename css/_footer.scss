@@ -1,0 +1,118 @@
+.footer {
+    background-color: #F1E4E6;
+    background: url(../img/footer-background-image.png) left no-repeat cover;
+    height: 448px;
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.users-feedback {
+    width: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.user-feedback-avatar {
+    margin-top: 86px;
+}
+
+.feedback-message {
+    margin-top: 32px;
+    font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+color: #222224;
+}
+
+.subscription {
+    display: flex;
+    margin-right: 75px;
+    flex-direction: column;
+}
+
+.call-to-subscribe {
+    margin-top: 150px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 167.2%;
+    text-align: center;
+    color: #222224;
+
+    &-little {
+        font-size: 20px;
+    }
+}
+
+.subscribe-form {
+    display: flex;
+    width: 365px;
+    margin-top: 32px;
+}
+
+.subscribe-email-input {
+background: #E1E1E1;
+padding: 20px;
+width: 255px;
+border-radius: 27px 0 0 27px;
+border: none;
+color: #222224;
+}
+
+.subscribe-button {
+padding: 20px;
+border-radius: 0 27px 27px 0;
+border: none;
+background-color: $main-color;
+color: #fff;
+
+}
+
+.subscribe-button:hover {
+    background-color: white;
+    color: #F16D7F;
+}
+
+.subscribe-email-input::placeholder {
+    font-size: 14px;
+    line-height: 17px;
+    color: #222224;
+    opacity: 0.67;
+}
+
+.footer-info-wrapper {
+    background: #222224;
+    height: 80px;
+    margin-top: 156px;
+}
+
+.footer-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.all-rights {
+    font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+color: #FBFBFB;
+margin: 30px;
+}
+
+.social-media-links {
+    margin: 24px;
+}
+
+.social-media-link-item:hover {
+   width: 35px;
+    height: 35px;
+}

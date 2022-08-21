@@ -1,0 +1,130 @@
+.product-presentation {
+    max-width: 1600px;
+    display: flex;
+    background: #F7F7F7;
+    justify-content: space-between;
+    align-items: center; 
+    margin: 0 auto;
+}
+
+.product-switcher-button {
+    width: 47px;
+    height: 47px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(42, 42, 42, 0.15);
+}
+
+.product-description-block {
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    position: relative;
+    top: -65px;
+    border: 1px solid #EAEAEA;
+}
+
+.collection-gender {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: $main-color;
+    text-align: center;
+    margin-top: 64px;
+}
+
+.divider-pink {
+    width: 63px;
+    height: 3px;
+    background: #EF5B70;
+    margin-top: 12px;
+
+}
+
+.product-name {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color: #4D4D4D;
+    margin-top: 12px;
+}
+
+.product-description-paragraph {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #5E5E5E;
+    margin-top: 48px;
+    width: 50%;
+}
+
+.product-page-price {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #EF5B70;
+    margin-top: 32px;
+}
+
+.divider-grey {
+    height: 0;
+    width: 641px;
+    border: 1px solid #EAEAEA;
+    margin-top: 65px;
+}
+
+.parameters-container {
+    display: flex;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6F6E6E;
+    margin-top: 65px;
+
+    & img {
+        margin-left: 10px;
+    }
+}
+
+.color-parametr,
+.size-parametr,
+.quantity-parametr
+{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6F6E6E;
+    display: flex;
+    margin-left: 22px;
+}
+
+.add-to-cart-btn{
+    display: flex;
+    border: 1px solid #FF6A6A;
+    margin-top: 49px;
+    margin-bottom: 65px;
+
+    & img {
+        margin: 14px 23px 8px;
+    }
+
+    & p {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+        color: #F26376;
+        margin: 14px 56px 14px 0;
+    }
+}
+

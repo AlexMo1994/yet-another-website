@@ -1,0 +1,62 @@
+.header {
+    background-color: #222222;
+    height: 75px;
+}
+
+.header-menu {
+    display: none;
+    position: absolute;
+    top: 76px;
+    right: 0;
+    width: 232px;
+    background: #FFFFFF;
+}
+
+.closing-cross {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+}
+
+.header-h1-menu {
+    color: #000000;
+    font-size: 14px;
+    margin: 37px 34px;
+}
+
+.header-h2-menu {
+    font-size: 14px;
+    color: #F16D7F;
+    margin: 20px 33px;
+}
+.header-li-item {
+    text-decoration: none;
+    list-style-type: none;
+    margin: 12px 54px;
+    font-size: 14px;
+    color: #6F6E6E;
+}
+
+.nav-icon:hover {
+    width: 40px;
+    height: 30px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 18px;
+}
+
+.search-icon {
+    margin-left: 40px;
+}
+
+.user-icon {
+    margin: 0 33px;
+}
+
+.show-element {
+    display: block;
+}

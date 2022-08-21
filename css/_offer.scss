@@ -1,0 +1,35 @@
+.brand-description {
+    background-color:#F1E4E6;
+    margin-bottom: 65px;
+
+    &-wrapper {
+        background: url("../img/header-background-image.png") no-repeat;
+        height: 764px;
+        background-position-x: -227px;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    &-heading {
+        font-weight: 900;
+        font-style: normal;
+        font-size: 48px;
+        line-height: 38px;
+        color: #222222;
+        margin-top: 290px;
+        margin-right: 35px;
+        border-left: 
+        12px solid $main-color;
+        height: 93px;
+        padding-left: 16px;
+        padding-top: 10px;
+    }
+}
+
+.brand-description-little {
+    font-size: 32px;
+    font-weight: 700;
+}
+.brand-description-pink {
+    color: $main-color;
+}

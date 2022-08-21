@@ -1,0 +1,49 @@
+.product-categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.category-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(124, 117, 117);
+}
+
+.category-card-heading {
+    font-weight: 400;
+    color: white;
+    font-size: 18px;
+}
+
+.category-card-heading-pink {
+    font-size: 24px;
+    color: $main-color;
+}
+
+.category-card1 {
+    margin-bottom: 30px;
+    background-image: url("../img/category-image-for-woman.jpg");
+    width: 360px;
+    height: 260px;
+    
+}
+.category-card2 {
+    background-image: url("../img/category-image-for-man.jpg");
+    width: 360px;
+    height: 260px;
+}
+
+.category-card3 {
+    background-image: url("../img/category-image-for-kids.jpg");
+    width: 360px;
+    height: 260px;
+}
+
+.category-card4 {
+    background-image: url("../img/category-image-for-accessories.jpg");
+    width: 1140px;
+    height: 180px;
+}

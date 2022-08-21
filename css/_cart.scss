@@ -1,0 +1,114 @@
+.cart-main-section {
+    padding-top: 46px;
+    display: flex;
+}
+
+.chosen-products {
+    margin-top: 40px;
+    width: 650px;
+    display: flex;
+    filter: drop-shadow(17px 19px 24px rgba(0, 0, 0, 0.13));
+    border: 1px solid rgba(244, 244, 244, 0.7);
+}
+
+.cart-product {
+
+    &-description {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        line-height: 26px;
+        color: #575757;
+        margin-top: 20px;
+        margin-left: 30px;
+
+    }
+
+    &-description-heading {
+       width: 225px;
+    }
+    
+    &-price {
+        margin-top: 40px;
+    }
+
+    &-price-pink {
+        color: $main-color;
+    }
+
+    &-color {
+        margin-top: 6px;
+    }
+
+    &-size {
+        margin-top: 6px;
+    }
+
+}
+
+.quantity-container {
+    display: flex;
+    margin-top: 6px;
+}
+
+.quantity-text {
+    margin-right: 24px;
+}
+
+.quantity-number {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #656565;
+    width: 43px;
+    height: 24px;
+    border: 1px solid #EAEAEA;
+    text-align: center;
+}
+
+.delete-btn {
+    position: relative;
+    top: 25px;
+    right: -97px;
+    width: 18px;
+    height: 18px;
+}
+
+.delivery-form {
+    margin-top: 40px;
+    margin-left: 128px;
+}
+
+.country,
+.state,
+.postcode {
+    display: block;
+    border: 1px solid #A4A4A4;
+    width: 360px;
+    height: 44px;
+    padding: 12px 16px;
+    color: #B1B1B1;
+    margin-top: 20px;
+}
+
+.delivery-form-heading {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222222;
+}
+
+.shpping-adress-btn {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 13px;
+    color: #4A4A4A;
+    border: 1px solid #A4A4A4;
+    width: 100px;
+    height: 34px;
+    margin-top: 25px;
+}
+
